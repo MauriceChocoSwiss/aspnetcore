@@ -610,7 +610,7 @@ public class SchemaTransformerTests : OpenApiDocumentServiceTestBase
         });
     }
 
-        [Fact]
+    [Fact]
     public async Task SchemaTransformer_CanModifyDeeplyNestedPolymorphicTypesInProperties()
     {
         var builder = CreateBuilder();
